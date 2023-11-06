@@ -57,5 +57,8 @@ BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 14
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Inherit from the proprietary version
 include vendor/motorola/devon/BoardConfigVendor.mk
