@@ -18,12 +18,12 @@ ro.surface_flinger.use_smart_90_for_video=true
 persist.mm.enable.prefetch=true
 
 # Fingerprint
-vendor.false_touch_quality=26
+vendor.false_touch_quality=38
 
 # HWUI
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
 # Radio
-ro.vendor.radio.imei.sv=10
+ro.vendor.radio.imei.sv=17
 
