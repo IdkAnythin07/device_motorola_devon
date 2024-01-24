@@ -1,3 +1,8 @@
+# ADB
+persist.service.adb.enable=1 
+persist.service.debuggable=1 
+persist.sys.usb.config=mtp,adb
+
 # Audio
 persist.vendor.audio.dualmic.config=endfire
 persist.vendor.audio.fluence.voicecall=false
