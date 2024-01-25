@@ -22,7 +22,7 @@ ro.surface_flinger.enable_frame_rate_override=false
 
 # Graphics
 debug.sf.disable_client_composition_cache=1
-debug.renderengine.backend=skiaglthreaded
+debug.renderengine.backend=gles
 
 # media
 persist.mm.enable.prefetch=true
