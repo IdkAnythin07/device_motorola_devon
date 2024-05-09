@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/devon/device.mk)
 
-# Inherit some common LineageOS stuffs
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common PixelOS stuffs
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_devon
+PRODUCT_NAME := aosp_devon
 PRODUCT_DEVICE := devon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g32

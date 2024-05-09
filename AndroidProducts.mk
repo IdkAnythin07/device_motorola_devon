@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_devon.mk
+    $(LOCAL_DIR)/aosp_devon.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_devon-user \
-    evolution_devon-userdebug \
-    evolution_devon-eng
+    aosp_devon-user \
+    aosp_devon-userdebug \
+    aosp_devon-eng
