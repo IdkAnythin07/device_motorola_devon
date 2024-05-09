@@ -7,6 +7,9 @@
 # Inherit from sm6225-common
 $(call inherit-product, device/motorola/sm6225-common/bengal.mk)
 
+# Add V4a support
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
