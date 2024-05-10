@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_devon.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_devon-user \
-    aosp_devon-userdebug \
-    aosp_devon-eng
+    aosp_devon-ap1a-user \
+    aosp_devon-ap1a-userdebug \
+    aosp_devon-ap1a-eng
